@@ -29,7 +29,7 @@ namespace webapp
         {
             // Replace with your own test logic
             _driver.Url = "https://www.bing.com";
-            Assert.AreEqual("Bing", _driver.Title);
+            Assert.AreEqual("test", _driver.Title);
         }
 
         [TestCleanup]
